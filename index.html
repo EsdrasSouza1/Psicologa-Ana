@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Helise Castro | Psicoterapia</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="img/Fotos/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'psi-brown': '#957567',
+                        'psi-beige': '#E5D9D0',
+                        'psi-sand': '#C4B4A9',
+                    },
+                    fontFamily: {
+                        'titulo': ['"Playfair Display"', 'serif'],
+                        'corpo': ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        @keyframes colorFlow {
+            0% {
+                filter: grayscale(100%);
+            }
+
+            100% {
+                filter: grayscale(0%);
+            }
+        }
+
+        .animate-color {
+            animation: colorFlow 1.5s ease-in-out forwards;
+            animation-delay: 1s;
+        }
+    </style>
+</head>
+
+<body class="bg-[#F4F1EE] text-psi-brown overflow-x-hidden">
+
+    <div class="fixed bottom-6 right-4 md:right-6 flex flex-col gap-4 z-50">
+        <a href="https://www.instagram.com/psi.anahelisecastro" target="_blank"
+            class="bg-white text-psi-brown p-3 md:p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center justify-center">
+            <svg class="w-6 h-6 md:w-7 md:h-7" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg>
+        </a>
+        <a href="https://wa.me/555196869798?text=Olá,%20vim%20pelo%20site%20e%20tenho%20interesse%20em%20saber%20mais!"
+            target="_blank"
+            class="bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center justify-center">
+            <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.48s3.481 5.229 3.481 8.408c0 6.556-5.332 11.888-11.888 11.888-2.003 0-3.976-.505-5.716-1.464l-6.268 1.687zm5.821-3.533l.37.219c1.552.922 3.342 1.409 5.174 1.409 5.457 0 9.897-4.441 9.897-9.897 0-2.643-1.03-5.129-2.9-6.998-1.87-1.87-4.356-2.9-6.998-2.9-5.457 0-9.898 4.441-9.898 9.898 0 2.031.621 4.01 1.794 5.7l.241.352-1.088 3.974 4.068-1.096z">
+                </path>
+            </svg>
+        </a>
+    </div>
+
+    <nav class="fixed w-full z-40 bg-white/90 backdrop-blur-md border-b border-psi-sand/20">
+        <div class="max-w-6xl mx-auto px-4 md:px-6 h-32 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <img src="img/Fotos/logo.png" alt="Logo Ana Helise" class="h-24 md:h-32 w-auto object-contain">
+            </div>
+
+            <div class="flex items-center gap-4 md:gap-6">
+                <div class="hidden lg:flex space-x-6 font-corpo text-xs uppercase tracking-widest">
+                    <a href="#sobre" class="hover:text-psi-sand transition font-medium">Sobre</a>
+                    <a href="#atendimento" class="hover:text-psi-sand transition font-medium">Atendimento</a>
+                    <a href="#servicos" class="hover:text-psi-sand transition font-medium">Serviços</a>
+                </div>
+                <a href="https://wa.me/555196869798?text=Olá,%20vim%20pelo%20site%20e%20tenho%20interesse%20em%20saber%20mais!"
+                    class="bg-psi-brown text-white px-4 md:px-6 py-2 rounded-full font-corpo text-[10px] uppercase tracking-widest hover:bg-opacity-90 transition shadow-sm">Agendar</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-40 md:pt-52 pb-16 md:pb-24 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-16">
+            <div class="w-full md:w-1/2 order-2 md:order-1 text-center md:text-left">
+                <h1 class="font-titulo text-3xl md:text-5xl mb-6 leading-tight text-psi-brown">
+                    Às vezes, a mente só precisa de um lugar para <span
+                        class="italic font-normal text-psi-sand underline underline-offset-8">descansar o peso</span>.
+                </h1>
+                <p class="font-corpo font-light text-lg md:text-xl mb-6 text-psi-brown/90 italic">Você sente que está
+                    sempre no "limite" de suas emoções?</p>
+                <p
+                    class="font-corpo font-light text-base md:text-lg mb-10 text-psi-brown/80 leading-relaxed text-justify">
+                    Aqui, meu papel não é apenas te ouvir, mas te ajudar a desatar os nós que impedem sua leveza.
+                    Através de um acompanhamento estruturado, cuidamos da sua ansiedade e das suas feridas emocionais
+                    para que você volte a ser protagonista da sua história.
+                </p>
+                <a href="https://wa.me/555196869798?text=Olá,%20vim%20pelo%20site%20e%20tenho%20interesse%20em%20saber%20mais!"
+                    class="inline-block bg-psi-brown text-white px-8 md:px-10 py-4 md:py-5 rounded-full font-corpo text-[10px] uppercase tracking-[0.2em] hover:shadow-xl transition shadow-lg w-full md:w-auto text-center">Quero
+                    começar meu processo</a>
+            </div>
+            <div class="w-full md:w-1/2 order-1 md:order-2 relative">
+                <div class="absolute -inset-4 bg-psi-beige rounded-full opacity-20 blur-3xl -z-10"></div>
+                <img src="img/Fotos/ANAHELISE-PHOTOBRAND-3301.jpeg" alt="Ana Helise Castro"
+                    class="rounded-t-full w-full max-w-[280px] md:max-w-sm mx-auto shadow-2xl border-[8px] md:border-[10px] border-white">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="font-titulo text-3xl text-psi-brown mb-8 italic text-psi-brown/90">Foco em autonomia e qualidade
+                de vida</h2>
+            <p class="font-corpo font-light text-lg text-psi-brown/80 leading-relaxed">
+                Meu trabalho é focado em ajudar pessoas que lidam com <strong>Ansiedade</strong> e buscam
+                <strong>Regulação Emocional</strong>. Através de habilidades práticas, construímos juntos um caminho de
+                maior clareza e controle sobre sua própria jornada.
+            </p>
+
+            <div class="mt-12 flex justify-center gap-4">
+                <div class="h-[1px] w-20 bg-psi-sand self-center"></div>
+                <span class="font-titulo text-psi-brown italic text-xl text-psi-brown">Ana Helise Castro</span>
+                <div class="h-[1px] w-20 bg-psi-sand self-center"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-16 md:py-24 bg-[#FDFCFB] px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-16">
+            <div class="w-full md:w-5/12 relative">
+                <div class="absolute -bottom-4 -left-4 w-full h-full bg-psi-beige rounded-2xl -z-10"></div>
+                <img src="img/Fotos/ANAHELISE-PHOTOBRAND-3363.jpeg" alt="Ana Helise Castro"
+                    class="rounded-2xl shadow-sm w-full object-cover aspect-[4/5] animate-color max-w-sm mx-auto md:max-w-none">
+                <div
+                    class="absolute -bottom-4 -right-2 md:-right-4 bg-psi-brown text-white p-3 md:p-4 rounded-full shadow-lg">
+                    <p class="font-corpo text-[9px] md:text-[10px] uppercase tracking-widest text-center leading-tight">
+                        CRP Ativo<br>07/44136</p>
+                </div>
+            </div>
+            <div class="w-full md:w-7/12 text-center md:text-left">
+                <span
+                    class="font-corpo text-xs uppercase tracking-[0.3em] text-psi-sand mb-4 block font-medium">Trajetória
+                    e Propósito</span>
+                <h2 class="font-titulo text-3xl md:text-5xl text-psi-brown mb-8 leading-tight">Olá, eu sou a <span
+                        class="italic font-normal">Ana Helise Castro</span></h2>
+                <div class="font-corpo text-base md:text-lg text-psi-brown/80 space-y-6 leading-relaxed text-justify">
+                    <p>Ofereço um acompanhamento psicológico estruturado e profundo, integrando <strong>Terapia
+                            Cognitivo-Comportamental</strong> e <strong>Terapia do Esquema</strong>.</p>
+                    <p>Meu foco é desenvolver habilidades práticas e promover mudanças emocionais duradouras, com foco
+                        em autonomia, equilíbrio e qualidade de vida.</p>
+                    <p class="italic border-l-2 border-psi-sand pl-4">"Minha missão é te auxiliar a encontrar clareza em
+                        meio ao caos e equilíbrio para as suas emoções."</p>
+                </div>
+                <div class="mt-10 text-center md:text-left">
+                    <a href="https://wa.me/555196869798?text=Olá,%20vim%20pelo%20site%20e%20tenho%20interesse%20em%20saber%20mais!"
+                        class="group flex items-center justify-center md:justify-start gap-4 text-psi-brown font-corpo text-xs uppercase tracking-widest font-semibold hover:text-psi-sand transition-colors">
+                        Saber mais sobre o atendimento
+                        <span
+                            class="h-[1px] w-12 bg-psi-brown group-hover:w-20 group-hover:bg-psi-sand transition-all"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="atendimento" class="py-16 md:py-20 bg-psi-brown text-white px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <span
+                class="font-corpo text-[10px] uppercase tracking-[0.4em] opacity-80 mb-4 block text-center">Flexibilidade
+                e Conexão</span>
+            <h2 class="font-titulo text-2xl md:text-4xl mb-6 italic text-center">Foco no Atendimento Online</h2>
+            <p class="font-corpo font-light text-base md:text-lg leading-relaxed mb-10 text-center px-2 opacity-90">
+                Embora mantenha meu consultório físico para acolhê-lo presencialmente, o <strong>atendimento
+                    online</strong> é hoje minha principal modalidade. Ele permite que você cuide da sua saúde mental de
+                qualquer lugar, com praticidade e o mesmo sigilo ético.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4 text-xs md:text-sm">
+                <div class="bg-white/10 px-6 py-3 rounded-lg border border-white/20 text-center">Acolhimento Sem
+                    Fronteiras</div>
+                <div class="bg-white/10 px-6 py-3 rounded-lg border border-white/20 text-center">Segurança e Ética</div>
+                <div class="bg-white/10 px-6 py-3 rounded-lg border border-white/20 text-center">Conforto do Lar</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="py-16 md:py-24 bg-psi-beige/30 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="font-titulo text-3xl md:text-4xl mb-12 md:mb-16 uppercase tracking-tighter italic text-center">
+                Como eu posso te ajudar</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 text-psi-brown">
+                <div
+                    class="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-psi-sand/10 transition-all duration-500 group hover:bg-psi-brown hover:text-white">
+                    <div
+                        class="w-12 h-12 md:w-16 md:h-16 bg-psi-beige rounded-full mb-6 flex items-center justify-center group-hover:bg-white transition-colors">
+                        <svg class="w-6 h-6 md:w-8 md:h-8 text-psi-brown" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="font-titulo text-xl mb-4 italic">Ansiedade</h3>
+                    <p class="font-corpo text-sm font-light leading-relaxed">Estratégias para lidar com a sobrecarga de
+                        pensamentos e encontrar equilíbrio emocional.</p>
+                </div>
+                <div
+                    class="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-psi-sand/10 transition-all duration-500 group hover:bg-psi-brown hover:text-white">
+                    <div
+                        class="w-12 h-12 md:w-16 md:h-16 bg-psi-beige rounded-full mb-6 flex items-center justify-center group-hover:bg-white transition-colors">
+                        <svg class="w-6 h-6 md:w-8 md:h-8 text-psi-brown" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-titulo text-xl mb-4 italic">Autorregulação Emocional</h3>
+                    <p class="font-corpo text-sm font-light leading-relaxed text-justify">Desenvolvimento de habilidades
+                        para reconhecer e manejar emoções intensas, com estratégias práticas que promovem equilíbrio
+                        emocional, autocontrole e bem-estar.</p>
+                </div>
+                <div
+                    class="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-psi-sand/10 transition-all duration-500 group hover:bg-psi-brown hover:text-white">
+                    <div
+                        class="w-12 h-12 md:w-16 md:h-16 bg-psi-beige rounded-full mb-6 flex items-center justify-center group-hover:bg-white transition-colors">
+                        <svg class="w-8 h-8 text-psi-brown" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="font-titulo text-xl mb-4 italic">Autoconhecimento</h3>
+                    <p class="font-corpo text-sm font-light leading-relaxed">Um mergulho para entender comportamentos e
+                        desenvolver autonomia nas escolhas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="consultorio" class="py-16 md:py-24 bg-white px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-16">
+            <div class="w-full md:w-1/2 order-2 md:order-1 text-center md:text-left">
+                <span
+                    class="font-corpo text-[10px] uppercase tracking-[0.4em] text-psi-sand mb-4 block font-bold text-center md:text-left">Atendimento
+                    Presencial</span>
+                <h2 class="font-titulo text-3xl md:text-4xl text-psi-brown mb-8 italic">Um refúgio para <br
+                        class="hidden md:block">suas pausas</h2>
+                <p
+                    class="font-corpo font-light text-base md:text-lg text-psi-brown/80 mb-8 leading-relaxed text-justify px-1 md:px-0">
+                    O consultório é um espaço de silêncio e acolhimento em meio à rotina, localizado no bairro Sarandi.
+                    Ideal para quem valoriza a troca presencial.
+                </p>
+                <div
+                    class="flex items-start justify-center md:justify-start gap-4 mb-10 p-5 md:p-6 bg-[#F4F1EE] rounded-2xl max-w-sm mx-auto md:mx-0 text-left">
+                    <div class="mt-1 text-psi-sand"><svg class="w-6 h-6" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                            </path>
+                        </svg></div>
+                    <div>
+                        <p class="font-corpo font-semibold text-psi-brown text-sm md:text-base">R. Zeferino Dias, 51 —
+                            Sala 203</p>
+                        <p class="font-corpo font-light text-psi-brown/70 text-xs md:text-sm italic text-psi-brown/70">
+                            Sarandi, Porto
+                            Alegre — RS</p>
+                    </div>
+                </div>
+                <a href="https://www.google.com.br/maps/place/R.+Zeferino+Dias,+51+-+sala+203+-+Sarandi,+Porto+Alegre+-+RS,+91130-480/@-30.0029321,-51.13643,17z/data=!3m1!4b1!4m6!3m5!1s0x951976fc21a40001:0xd7a1491b98cd2ca8!8m2!3d-30.0029368!4d-51.1338551!16s%2Fg%2F11yd4xb_q2"
+                    target="_blank"
+                    class="inline-block border-b border-psi-sand font-corpo text-[10px] uppercase tracking-widest font-bold text-psi-brown hover:text-psi-sand transition">Ver
+                    no Google Maps</a>
+            </div>
+            <div
+                class="w-full md:w-1/2 order-1 md:order-2 relative group h-[320px] md:h-[450px] max-w-xs md:max-w-sm mx-auto cursor-pointer">
+                <img id="foto-consultorio-1" src="img/Fotos/Consultório.jpeg" alt="Consultório"
+                    class="absolute inset-0 w-full h-full object-cover rounded-full shadow-xl transition-opacity duration-1000 opacity-100">
+                <img id="foto-consultorio-2" src="img/Fotos/Recepção.jpeg" alt="Recepção"
+                    class="absolute inset-0 w-full h-full object-cover rounded-full shadow-xl transition-opacity duration-1000 opacity-0 group-hover:opacity-100">
+                <p
+                    class="absolute -bottom-10 w-full text-center font-corpo text-[9px] uppercase tracking-widest text-psi-sand">
+                    Recepção / Consultório</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="feedbacks" class="py-16 md:py-24 bg-[#FDFCFB] px-6 overflow-hidden">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center md:items-end mb-12 gap-6 text-psi-brown">
+                <div class="text-center md:text-left">
+                    <span
+                        class="font-corpo text-[10px] uppercase tracking-[0.4em] text-psi-sand mb-2 block font-bold text-psi-sand">Experiências</span>
+                    <h2 class="font-titulo text-3xl md:text-4xl italic">O que dizem os pacientes</h2>
+                </div>
+                <div class="flex gap-4">
+                    <button onclick="scrollPrev()"
+                        class="p-3 border border-psi-sand rounded-full hover:bg-psi-sand hover:text-white transition">←</button>
+                    <button onclick="scrollNext()"
+                        class="p-3 border border-psi-sand rounded-full hover:bg-psi-sand hover:text-white transition">→</button>
+                </div>
+            </div>
+            <div id="carousel-feedback" class="flex gap-6 overflow-x-auto pb-10 snap-x snap-mandatory no-scrollbar"
+                style="scroll-behavior: smooth;">
+                <div
+                    class="snap-center shrink-0 w-[85%] md:w-[400px] bg-white p-8 md:p-10 rounded-3xl border border-psi-sand/10 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-yellow-500 mb-6 text-xs tracking-widest">★★★★★</div>
+                        <p
+                            class="font-corpo font-light italic mb-8 text-sm md:text-base leading-relaxed text-psi-brown/90 text-psi-brown/90">
+                            "A Ana Helise
+                            está me ajudando muito no processo de luto pós termino de relacionamento e depressão. As
+                            sessões são excelentes..."</p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-10 h-10 bg-psi-beige rounded-full flex items-center justify-center font-bold text-xs uppercase text-psi-brown">
+                            AP</div><span
+                            class="font-corpo text-[10px] uppercase tracking-widest font-bold text-psi-brown">Ana
+                            Paula</span>
+                    </div>
+                </div>
+                <div
+                    class="snap-center shrink-0 w-[85%] md:w-[400px] bg-white p-8 md:p-10 rounded-3xl border border-psi-sand/10 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-yellow-500 mb-6 text-xs tracking-widest">★★★★★</div>
+                        <p
+                            class="font-corpo font-light italic mb-8 text-sm md:text-base leading-relaxed text-psi-brown/90">
+                            "Sempre foi
+                            respeitosa comigo... aprendi a me dar valor e com certeza a superar as coisas... uma pessoa
+                            adorável e gentil."</p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-10 h-10 bg-psi-beige rounded-full flex items-center justify-center font-bold text-xs uppercase text-psi-brown">
+                            IM</div><span
+                            class="font-corpo text-[10px] uppercase tracking-widest font-bold text-psi-brown">Isac
+                            Mendes</span>
+                    </div>
+                </div>
+                <div
+                    class="snap-center shrink-0 w-[85%] md:w-[400px] bg-white p-8 md:p-10 rounded-3xl border border-psi-sand/10 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-yellow-500 mb-6 text-xs tracking-widest">★★★★★</div>
+                        <p
+                            class="font-corpo font-light italic mb-8 text-sm md:text-base leading-relaxed text-psi-brown/90">
+                            "Tenho gostado
+                            bastante das sessões, da forma como tudo é abordado. Tenho sentido uma grande melhora..."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-10 h-10 bg-psi-beige rounded-full flex items-center justify-center font-bold text-xs uppercase text-psi-brown">
+                            GA</div><span
+                            class="font-corpo text-[10px] uppercase tracking-widest font-bold text-psi-brown text-psi-brown">Gabrielly
+                            Assunção</span>
+                    </div>
+                </div>
+            </div>
+            <p
+                class="md:hidden text-center font-corpo text-[9px] text-psi-sand uppercase tracking-[0.3em] text-psi-sand">
+                ← deslize
+                para ver mais →</p>
+        </div>
+    </section>
+
+    <footer class="py-16 bg-[#F4F1EE] text-center border-t border-psi-sand/20 px-6">
+        <img src="img/Fotos/logo.png" alt="Logo" class="h-28 md:h-36 mx-auto mb-8 object-contain">
+        <p class="font-titulo text-xl mb-4 italic text-psi-brown uppercase tracking-widest font-bold">Ana Helise Castro
+        </p>
+        <p class="font-corpo text-[10px] tracking-widest uppercase mb-10 opacity-60">CRP 07/44136 • Online e Porto
+            Alegre</p>
+        <div class="flex justify-center gap-8 font-corpo text-xs uppercase tracking-widest text-psi-brown">
+            <a href="https://www.instagram.com/psi.anahelisecastro" target="_blank"
+                class="hover:text-psi-sand transition">Instagram</a>
+            <a href="https://wa.me/555196869798?text=Olá,%20vim%20pelo%20site%20e%20tenho%20interesse%20em%20saber%20mais!"
+                target="_blank" class="hover:text-psi-sand underline transition">WhatsApp</a>
+        </div>
+    </footer>
+
+    <script>
+        const f1 = document.getElementById('foto-consultorio-1');
+        const f2 = document.getElementById('foto-consultorio-2');
+        let alt = false;
+        setInterval(() => {
+            if (alt) { f1.style.opacity = "1"; f2.style.opacity = "0"; }
+            else { f1.style.opacity = "0"; f2.style.opacity = "1"; }
+            alt = !alt;
+        }, 4000);
+
+        const carousel = document.getElementById('carousel-feedback');
+        function scrollNext() {
+            const cardWidth = carousel.querySelector('.snap-center').offsetWidth + 24;
+            if (carousel.scrollLeft + carousel.offsetWidth >= carousel.scrollWidth - 10) {
+                carousel.scrollTo({ left: 0, behavior: 'smooth' });
+            } else {
+                carousel.scrollBy({ left: cardWidth, behavior: 'smooth' });
+            }
+        }
+        function scrollPrev() {
+            const cardWidth = carousel.querySelector('.snap-center').offsetWidth + 24;
+            carousel.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+        }
+        setInterval(scrollNext, 3000);
+    </script>
+</body>
+
+</html>
